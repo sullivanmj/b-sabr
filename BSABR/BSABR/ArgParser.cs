@@ -37,7 +37,8 @@ namespace Bsabr
         internal Options GetOptions()
         {
             // help will have been requested if the first of the arguments match a normal help string
-            var helpRequested = _args.FirstOrDefault() == "/?" || _args.FirstOrDefault() == "/help";
+            // let's also show help if there were no args supplied
+            var helpRequested = _args.FirstOrDefault() == "/?" || _args.FirstOrDefault() == "/help" || _args.Length == 0;
 
             // studio file name will be the first argument (as long as that wasn't the help arg)
             var studioFileName = helpRequested ? null : _args.FirstOrDefault();
