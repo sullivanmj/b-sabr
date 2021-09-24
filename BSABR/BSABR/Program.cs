@@ -71,11 +71,10 @@ namespace Bsabr
             if (shouldShowHelp)
             {
                 Console.WriteLine("Usage: Bsabr.exe studio_path studio_arguments\n"
-                                + "\tstudio_path: the path to AtmelStudio.exe"
-                                + "\tstudio_arguments: the build arguments to pass to AtmelStudio.exe"
-                                + "If you are unsure of which arguments you should use for Atmel Studio"
-                                + "/Microchip Studio, launch it from the command line with the \"/?\""
-                                + "argument to see its usage");
+                                + "\tstudio_path: the path to AtmelStudio.exe\n"
+                                + "\tstudio_arguments: the build arguments to pass to AtmelStudio.exe\n"
+                                + "If you are unsure of which arguments you should use for AtmelStudio.exe,\n"
+                                + "launch it from the command line with the \"/?\" argument to see its usage.");
 
                 return (false, options);
             }
