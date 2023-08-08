@@ -23,7 +23,7 @@ If you are unsure of which arguments you should use for AtmelStudio.exe, launch 
 ```bsabr.exe "C:\Program Files (x86)\Atmel\Studio\7.0\AtmelStudio.exe" "C:\code\asf_test\asf_test.atsln" /build DEBUG```
 
 ## Help, I'm not seeing any build output!
-Based on the information found in [this AvrFreaks thread](https://www.avrfreaks.net/forum/see-complete-log-command-line-build), make sure your build verbosity is appropriately set. If you haven't run the AtmelStudio.exe GUI yet, do so. If you cannot run the AtmelStudio.exe GUI, then set the appropriate registry values as specified in [this post](https://www.avrfreaks.net/comment/2874201#comment-2874201).
+Based on the information found in [this AvrFreaks thread](https://www.avrfreaks.net/s/topic/a5C3l000000Ub3kEAC/t156248), make sure your build verbosity is appropriately set. If you haven't run the AtmelStudio.exe GUI yet, do so. If you cannot run the AtmelStudio.exe GUI, then set the appropriate registry values as specified in [this post](https://www.avrfreaks.net/s/topic/a5C3l000000Ub3kEAC/t156248?comment=P-1233321).
 
 ## Intellectual Property Notice
 AVR, SAM, Atmel Studio, and Microchip Studio are all trademarks of Microchip Technology, Inc.
